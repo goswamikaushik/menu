@@ -1,4 +1,4 @@
-import Accrodion from "./components/Accrodion";
+import Accrodion from "../components/Accrodion";
 
 const AccrodionPage = () => {
   const items = [
