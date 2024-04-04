@@ -8,7 +8,7 @@ import {
 } from "react-icons/ri";
 const ButtonPage = () => {
   return (
-    <div>
+    <div className="h-56 flex flex-col justify-between">
       <div>
         <Button rounded primary>
           <RiAlarmWarningFill />

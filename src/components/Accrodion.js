@@ -29,7 +29,7 @@ function Accrodion({ items }) {
           className="flex p-3 bg-gray-900 cursor-pointer border-b-2 border-gray-400 text-white items-center justify-between"
           onClick={() => handleClick(index)}
         >
-          {item?.lable}
+          {item?.label}
           {icon}
         </div>
         {isExpanded && <div className="bg-sky-100 p-3">{item?.content}</div>}
